@@ -1,0 +1,140 @@
+<view class="box">
+  <view class="sous">
+    <input type="text" placeholder="🔍  请输入关键词"/>
+  </view>
+  <view class="banner">
+    <swiper indicator-dots='true' autoplay='true' interval='3000' duration='1000' circular='true' class="swip">
+    <block wx:for="{{movies}}" wx:for-index="index">
+      <swiper-item>
+        <image src='{{item.url}}' mode='widthFix'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  </view>
+  <view style="background-color: #f7ecd7;">
+      <image src="https://s2.loli.net/2024/05/22/fsNi7mlMphgeScw.jpg" style="width: 100%; height: 50px;" bindtap="navigateTohuodong1"></image>
+ </view>
+  <view class="neir">
+    <!-- 非遗赏 -->
+    <view class="feiyi">
+      <view class="text">非遗 · 赏</view>
+        <view class="nei_box">
+          <scroll-view   
+          class="scroll-view-content"   
+          scroll-x="true"   
+          bindscroll="handleScroll"  
+          style="width: 100%; white-space: nowrap; overflow-x: auto;"  
+          >  
+          <block wx:for="{{box5}}" wx:key="index">  
+            <view class="box_two">  
+              <image src="{{item.imageSrc}}"></image>
+              <view>{{item.text}}</view>  
+            </view>
+          </block>  
+          </scroll-view> 
+      </view>
+    </view>
+
+
+    <view class="feiyi">
+      <view class="text">非遗 · 研</view>
+        <view class="nei_box">
+          <scroll-view   
+          class="scroll-view-content"   
+          scroll-x="true"   
+          bindscroll="handleScroll"  
+          style="width: 100%; white-space: nowrap; overflow-x: auto;"  
+          >  
+          <block wx:for="{{box1}}" wx:key="index">  
+            <view class="box_two">  
+              <image src="{{item.imageSrc}}"></image>
+              <view>{{item.text}}</view>  
+            </view>
+          </block>  
+          </scroll-view> 
+      </view>
+    </view> 
+
+    <!-- 非遗学 -->
+    <view class="feiyi">
+      <view class="text">非遗 · 学</view>
+        <view class="nei_box">
+          <scroll-view   
+          class="scroll-view-content"   
+          scroll-x="true"   
+          bindscroll="handleScroll"  
+          style="width: 100%; white-space: nowrap; overflow-x: auto;"  
+          >  
+          <block wx:for="{{box2}}" wx:key="index">  
+            <view class="box_two">  
+              <image src="{{item.imageSrc}}"></image>
+              <view>{{item.text}}</view>  
+            </view>
+          </block>  
+          </scroll-view> 
+      </view>
+    </view>
+
+    <!-- 非遗游 -->
+    <view class="feiyi">
+      <view class="text">非遗 · 游</view>
+        <view class="nei_box">
+          <scroll-view   
+          class="scroll-view-content"   
+          scroll-x="true"   
+          bindscroll="handleScroll"  
+          style="width: 100%; white-space: nowrap; overflow-x: auto;"  
+          >  
+          <block wx:for="{{box3}}" wx:key="index">  
+            <view class="box_two">  
+              <image src="{{item.imageSrc}}"></image>
+              <view>{{item.text}}</view>  
+            </view>
+          </block>  
+          </scroll-view> 
+      </view>
+    </view>
+
+    <!-- 非遗购 -->
+    <!-- <view class="feiyi">
+      <view class="text">非遗 · 购</view>
+        <view class="nei_box">
+          <scroll-view   
+          class="scroll-view-content"   
+          scroll-x="true"   
+          bindscroll="handleScroll"  
+          style="width: 100%; white-space: nowrap; overflow-x: auto;"  
+          >  
+          <block wx:for="{{box4}}" wx:key="index">  
+            <view class="box_two">  
+              <image src="{{item.imageSrc}}"></image>
+              <view>{{item.text}}</view>  
+            </view>
+          </block>  
+          </scroll-view> 
+      </view>
+    </view> -->
+
+    
+
+    <!-- 非遗交流 -->
+    <!-- <view class="feiyi">
+      <view class="text">非遗 · 交流</view>
+        <view class="nei_box">
+          <scroll-view   
+          class="scroll-view-content"   
+          scroll-x="true"   
+          bindscroll="handleScroll"  
+          style="width: 100%; white-space: nowrap; overflow-x: auto;"  
+          >  
+          <block wx:for="{{boxes}}" wx:key="index">  
+            <view class="box_two">  
+              <image src="{{item.imageSrc}}"></image>
+              <view>{{item.text}}</view>  
+            </view>
+          </block>  
+          </scroll-view> 
+      </view>
+    </view> -->
+  </view>
+</view>

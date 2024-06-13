@@ -1,0 +1,31 @@
+<view class="box">
+  <view class="one"  bindtap="navigateTohuodong1">
+    <view class="left">
+      <image src="https://s2.loli.net/2024/05/15/fOZgbdBlNCVpv3Y.png" mode=""/>
+    </view>
+    <view class="right">
+      <view class="tit">2024 第一期 | 3月1日 遇见非遗</view>
+      <!-- bindtap="addData" -->
+      <view class="onyuye">查看详情</view>  
+    </view>
+  </view>
+  <view class="one" bindtap="navigateTohuodong2">
+    <view class="left">
+      <image src="https://s2.loli.net/2024/05/15/fOZgbdBlNCVpv3Y.png" mode=""/>
+    </view>
+    <view class="right">
+      <view class="tit">{{yutext}}</view>
+      <view class="onyuye">查看详情</view>  
+    </view>
+  </view>
+  <view class="one" bindtap="navigateTohuodong3">
+    <view class="left">
+      <image src="https://s2.loli.net/2024/05/22/3HDI8F1iurzoCtT.jpg" mode=""/>
+    </view>
+    <view class="right">
+      <view class="tit">2024 第三期 | 6月24日 遇见正定</view>
+      <view class="onyuye">查看详情</view>  
+    </view>
+  </view>
+  <view class="end">--没有更多了--</view>
+</view>

@@ -1,0 +1,17 @@
+.tit{
+  font-size: 40rpx;
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+.txt{
+  margin-top: 20rpx;
+  color: rgb(92, 92, 92);
+  text-indent: 2em;
+  padding: 10px;
+}
+.t{
+  text-indent: 2em;
+}

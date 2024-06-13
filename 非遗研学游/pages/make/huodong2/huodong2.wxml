@@ -1,0 +1,49 @@
+<view class="box">
+  <view class="img_box">
+  <swiper bindchange="swiperChange" current="{{currentSwiperIndex}}" style="width: 100%; height: 200px;">  
+    <swiper-item wx:for="{{swiperList}}" wx:key="*this">  
+      <image src="{{item}}" mode="aspectFit" style="width: 100%; height: 100%;"/>  
+    </swiper-item>  
+  </swiper>  
+  <view class="swiper-index">{{currentIndex + 1}}/{{swiperList.length}}</view>  
+  </view>
+  <view class="tit">
+    <view style="font-weight: bold;">
+      {{yutext}}
+    </view>
+    <view style="margin-top: 20rpx; color: rgb(112, 112, 112);">
+      已约
+    </view>
+  </view>
+  <view class="text">
+    <view style="font-weight: bold;">活动详情</view>
+    <text>
+      传承与发扬非物质文化遗产，弘扬中华民族优秀传统文化。
+展示中国曲艺的深厚底蕴和独特魅力，提高公众对曲艺文化的认知度和兴趣。
+搭建曲艺艺术交流平台，促进曲艺艺术的创新与发展。
+
+预约说明:每人每场可预约报名1次，成年人可携带1-2名儿童，儿童需满7周岁。
+    </text>
+  </view>
+  <view class="end">
+    <!-- <view class="but">在线预约</view> -->
+
+    <!-- yourPage.wxml -->  
+    <view class="content">  
+      <view class="but" bindtap="showDialog">活动结束</view>  
+      <view style="font-weight: bold;">  
+        {{yutext}}  
+      </view>  
+      <!-- 弹窗表单 -->  
+      <view wx:if="{{showDialog}}" class="dialog">  
+        <view class="dialog-content">  
+          <input type="text" placeholder="请输入姓名" bindinput="inputName" />
+          <input type="text" placeholder="请输入联系方式" bindinput="inputContact" />  
+          <button bindtap="submitForm">预约</button>  
+        </view>  
+      </view>  
+    </view>
+
+
+  </view>
+</view>

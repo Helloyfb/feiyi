@@ -1,0 +1,65 @@
+.box {
+  position:relative;
+  background-color: #f7ecd7;
+}
+.box .banner {
+  width: 100%;
+  height: 300rpx;
+}
+.box .banner .swip {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  margin-top: 10rpx;
+  overflow: hidden;
+}
+.box .banner image{
+  width: 100%;
+  height: 100%;
+}
+
+.box .neir{
+  position: absolute;
+  width: 100%;
+  background-color: #f7ecd7;
+  padding: 0 50rpx 50rpx 50rpx;
+}
+.box .neir .feiyi{
+  margin-top: 50rpx;
+}
+.box .neir .text{
+  font-weight: bold;
+}
+.box .neir .nei_box{
+  margin-top: 30rpx;
+}
+.box .neir .nei_box .box_two {  
+  display: inline-block;
+  width: 42%;
+  height: 300rpx;
+  background-color: #ccc;
+  margin-right: 20rpx; /* 设置盒子之间的间隔 */ 
+  border-radius: 20rpx;
+}  
+  
+/* 最后一个盒子右边不需要间隔 */  
+.box .neir .nei_box .box_two:last-child {  
+  margin-right: 40px;  
+}
+
+.box .neir .nei_box .box_two image{
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+.sous{
+  padding-top: 10rpx;
+}
+.sous input{
+  width: 95%;
+  height: 70rpx;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-left: 20rpx;
+}

@@ -1,0 +1,82 @@
+.box{
+  width: 100%;
+  height: 100vh;
+  background-color: #f7f7f7;
+  
+}
+.img_box{
+  position: relative;
+}
+
+.swiper-index{
+  position: absolute;
+  background-color: rgb(87, 87, 87);
+  width: 80rpx;
+  height: 60rpx;
+  bottom: 10px;
+  line-height: 60rpx;
+  text-align: center;
+  border-radius: 10px;
+  right: 10px;
+  color: white;
+}
+.tit{
+  width: 100%;
+  height: 150rpx;
+  background-color: white;
+  box-shadow: 1px 1px 5px 0px #ccc;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.text{
+  width: 100%;
+  height: 300rpx;
+  background-color: white;
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+.end{
+  width: 100%;
+  height: 100rpx;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  border-top: 1px solid #ccc;
+}
+.end .but{
+  width: 90%;
+  height: 90rpx;
+  background-color: #a8874f;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rpx;
+  color: white;
+}
+
+/* yourPage.wxss */  
+.dialog {  
+  position: fixed;  
+  left: 0;  
+  top: 0;  
+  right: 0;  
+  bottom: 0;  
+  background: rgba(0, 0, 0, 0.5);  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+}  
+  
+.dialog-content {  
+  margin-top: -200px;
+  background: white;  
+  padding: 20px;  
+  border-radius: 10px;  
+}
+
+.dialog-content input:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

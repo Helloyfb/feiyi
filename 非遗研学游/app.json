@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/introduce/introduce",
+    "pages/make/make",
+    "pages/make/huodong1/huodong1",
+    "pages/make/huodong2/huodong2",
+    "pages/make/huodong3/huodong3",
+    "pages/users/users",
+    "pages/zhengding/zhengding",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "非遗研学游",
+    "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#9c9d9b",
+    "backgroundColor": "#f7e1b6",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/首页.png",
+        "selectedIconPath": "image/首页.png"
+      },
+      {
+        "pagePath": "pages/introduce/introduce",
+        "text": "非遗资讯",
+        "iconPath": "image/消息.png",
+        "selectedIconPath": "image/消息.png"
+      },
+      {
+        "pagePath": "pages/make/make",
+        "text": "预约交流",
+        "iconPath": "image/增加.png",
+        "selectedIconPath": "image/增加.png"
+      },
+      {
+        "pagePath": "pages/users/users",
+        "text": "个人中心",
+        "iconPath": "image/交流.png",
+        "selectedIconPath": "image/交流.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

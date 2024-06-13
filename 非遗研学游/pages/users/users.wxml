@@ -1,0 +1,59 @@
+<view>
+  <view class="baiot">非遗研学游交流讨论(200)</view>
+  <view class="neirong">
+    <view class="one">
+      <view class="toux"><image src="https://s2.loli.net/2024/05/22/ZHWnKfNct81e54V.png" mode=""/></view>
+      <view class="wenzi">请问贵平台下个月有哪些非遗文化活动安排？</view>
+    </view>
+    <view class="two" style="height: 250rpx;">
+      <view class="wenzi">您好！感谢您对我们平台的关注。下个月我们安排了多项正定线下体验活动，包括传统剪纸工作坊、地方戏曲展演。具体日期和报名细节已在官网上公布，欢迎您查看并参与。</view>
+      <view class="toux"><image src="https://s2.loli.net/2024/05/22/TdNgR9w7hinW2A1.png" mode=""/></view>
+    </view>
+    <view class="one">
+      <view class="toux"><image src="https://s2.loli.net/2024/05/22/9PkubtwY6FDcBiW.png" mode=""/></view>
+      <view class="wenzi">我想带孩子一起参加非遗教育活动，是否有亲子类的活动安排？</view>
+    </view>
+    <view class="two" style="height: 530rpx;">
+      <view class="wenzi"><text>我们十分鼓励亲子共同参与非遗文化的学习和体验。有的，我们定期举办亲子非遗体验活动，比如故事讲解、手工艺制作等，旨在让孩子们在游戏中学习并感受传统文化的魅力。您可以关注我们的通知，及时了解即将举行的亲子活动详情。
+      非遗平台是一个专注于非物质文化遗产保护、传承和推广的在线平台。在这个平台上，用户可以提问关于非物质文化遗产的问题，平台会尽力回答这些问题。
+      </text>
+        </view>
+      <view class="toux"><image src="https://s2.loli.net/2024/05/22/TdNgR9w7hinW2A1.png" mode=""/></view>
+    </view>
+    <view class="one">
+      <view class="toux"><image src="https://s2.loli.net/2024/05/22/Wyk4bEJRXcoiKMx.png" mode=""/></view>
+      <view class="wenzi">什么是非物质文化遗产？</view>
+    </view>
+    <view class="two" style="height:300rpx;">
+      <view class="wenzi"><text>非物质文化遗产是指人类在历史发展过程中创造的、具有历史、文化、科学、艺术等价值的非物质文化表现形式。它包括口头传统、表演艺术、社会实践、节庆活动、自然知识和手工艺技能等方面的内容。</text>
+        </view>
+      <view class="toux"><image src="https://s2.loli.net/2024/05/22/TdNgR9w7hinW2A1.png" mode=""/></view>
+    </view>
+    <view class="one">
+      <view class="toux"><image src="https://s2.loli.net/2024/05/22/7xyK8chGVE1IsL9.png" mode=""/></view>
+      <view class="wenzi">如何参与非遗平台的线上线下活动？</view>
+    </view>
+    <view class="two" style="height:260rpx;">
+      <view class="wenzi"><text>您可以关注非遗平台的官方网站或社交媒体账号，了解最新的活动信息。一般来说，参与线上活动只需在相应的页面或帖子下留言、互动即可；参与线下活动则需要提前报名，按照活动要求参加。</text>
+        </view>
+      <view class="toux"><image src="https://s2.loli.net/2024/05/22/TdNgR9w7hinW2A1.png" mode=""/></view>
+    </view>
+    <view class="one">
+      <view class="toux"><image src="https://s2.loli.net/2024/05/22/ZHWnKfNct81e54V.png" mode=""/></view>
+      <view class="wenzi">如何在非遗平台学习和传承非物质文化遗产？</view>
+    </view>
+    <view class="two" style="height: 550rpx;">
+      <view class="wenzi"><text>在非遗平台上，您可以通过以下方式学习和传承非物质文化遗产：
+1. 观看平台上提供的非遗相关的视频、图片和文字资料，了解非遗的历史、特点和技艺；
+2. 参加平台上的线上课程和讲座，向非遗传承人请教技艺和经验；
+3. 参与平台上的线下活动，如非遗体验、实践和交流活动，亲身感受非遗的魅力；
+4. 加入非遗社群，与其他非遗爱好者一起交流学习，共同传承非物质文化遗产。</text>
+        </view>
+      <view class="toux"><image src="https://s2.loli.net/2024/05/22/TdNgR9w7hinW2A1.png" mode=""/></view>
+    </view>
+  </view>
+</view>
+
+
+
+
